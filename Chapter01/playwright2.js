@@ -23,6 +23,8 @@ printHello();
 
 
 console.log("----------------------------------------------");
+//let -- block scoped
+
 let b = 10; //Global scope
 
 console.log(b);     
@@ -43,6 +45,8 @@ function printHello1(){
 // let b = 40; //SyntaxError: Identifier 'b' has already been declared
 
 console.log("----------------------------------------------");
+
+//const -- block scoped
 const pi = 3.14; //Global scope
 console.log(pi);    
 pi = 3.14159; //cannot reassign the value of a constant variable
