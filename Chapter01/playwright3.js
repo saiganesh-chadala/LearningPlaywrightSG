@@ -1,5 +1,5 @@
 console.log(a); //ReferenceError: a is not defined
-var a=10;
+var a = 10;
 console.log(a); //10
 
 console.log("----------------------------------------------");
@@ -16,9 +16,9 @@ console.log(greeting); //Hello, Playwright!
 
 console.log("----------------------------------------------");
 
-function getUserStatus(){
+function getUserStatus() {
     console.log(status_code);
-    var status_code="Active"
+    var status_code = "Active"
     console.log(status_code)
 }
 getUserStatus(); //undefined Active
@@ -28,4 +28,22 @@ getUserStatus(); //undefined Active
 
 console.log("----------------------------------------------");
 
-console.log(); //ReferenceError: name is not defined
+//TDZ for "score" starts here
+// console.log(score);
+// score = 100;
+// typeof score; //ReferenceError: Cannot access 'score' before initialization
+//TDZ for "score" ends here
+let score = 100;
+console.log(score); //100
+
+console.log("----------------------------------------------");
+
+let s = 100;
+
+if (true) {
+    //TDZ starts here
+    // console.log(s);
+    let s = 200;
+    console.log(s);
+}
+console.log(s);
