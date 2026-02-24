@@ -10,3 +10,13 @@ if(NaN) console.log("not an number is false");
 if(null) console.log("null is false");
 if(undefined) console.log("undefined is false");
 if(0) console.log("0 is false");
+
+
+console.log("------------------------------------")
+let status = "Inactive";
+let msg = status === "active" ? "user is active"
+        : status === "Inactive" ? "user is inactive"
+        : status === "banned" ? "user is banned"
+        : "Unknown Status"          
+
+console.log(msg)
