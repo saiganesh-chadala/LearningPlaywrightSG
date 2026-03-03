@@ -1,0 +1,24 @@
+{
+  "name": "learningplaywrightsg",
+  "version": "1.0.0",
+  "description": "Lightweight Playwright examples and notes used while learning Playwright.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "playwright": "^1.58.2"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saiganesh-chadala/LearningPlaywrightSG.git"
+  },
+  "keywords": [],
+  "author": "Sai Ganesh Chadala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saiganesh-chadala/LearningPlaywrightSG/issues"
+  },
+  "homepage": "https://github.com/saiganesh-chadala/LearningPlaywrightSG#readme"
+}
