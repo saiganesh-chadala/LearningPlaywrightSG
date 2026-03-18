@@ -9,7 +9,6 @@
   "dependencies": {
     "playwright": "^1.58.2"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/saiganesh-chadala/LearningPlaywrightSG.git"
@@ -20,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/saiganesh-chadala/LearningPlaywrightSG/issues"
   },
-  "homepage": "https://github.com/saiganesh-chadala/LearningPlaywrightSG#readme"
+  "homepage": "https://github.com/saiganesh-chadala/LearningPlaywrightSG#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
 }
