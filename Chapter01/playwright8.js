@@ -183,7 +183,4 @@ console.log('-----------------------');
 let total = scores1.reduce((sum,s) => sum+s , 0);
 console.log(total)
 
-console.log('-----------------------');
 
-let fruits_new = ["banana", "sitaphal","apple","grapes"]
-console.log(fruits_new.sort()); // sorts defaulty to ascending order
