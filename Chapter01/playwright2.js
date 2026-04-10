@@ -2,7 +2,7 @@
 
 //var -- Function scoped
 
-var a = 10; //Global scope
+var a = 10; //Global scope -- test
 
 console.log(a);
 
