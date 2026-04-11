@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Lightweight Playwright examples and notes used while learning Playwright.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
